@@ -60,10 +60,10 @@ header{
     font-weight: 400;
     color: #333333;
 }
-.navbar-brand>.loader>img{
+.navbar-brand>img{
     width: 75px;
     display: inline-block;
-    margin-left: -1rem       ;
+    margin-left: 2rem       ;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
