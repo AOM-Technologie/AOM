@@ -873,12 +873,13 @@ button {
     top: 3%;
     left: 10%;
   }
-  .logo-navBar{
-    width: 100px;
-    height: 100px;
+  .logo-navBar {
+    width: 120px;
+    height: 120px;
     left: 15px;
+    top: 15px;;
     }
-  
+
   .loader:before,
   .loader:after {
     content: '';
@@ -952,15 +953,8 @@ button {
     87% {
       box-shadow: .2em -.2em 0 0 currentcolor;
     }
-  }
-
-  .navbar-logo .loader {
-    width: 8px; 
-    height: 8px; 
-  }
+  }    
   
-     
-
 /******************************* RESPONSIVE ********************************/
 @media only screen and (min-width: 769px) {
     .md-display-table{
@@ -1353,3 +1347,16 @@ button {
     border-color: #007ee5;
     border:1px solid;
 }
+
+.loader {
+    position: relative;
+  }
+  
+  .loader img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
