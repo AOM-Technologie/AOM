@@ -870,9 +870,14 @@ button {
     height: 48px;
     color: rgb(169, 190, 81);
     position: absolute;
-    top: 03%;
+    top: 3%;
     left: 10%;
   }
+  .logo-navBar{
+    width: 100px;
+    height: 100px;
+    left: 15px;
+    }
   
   .loader:before,
   .loader:after {
@@ -948,6 +953,12 @@ button {
       box-shadow: .2em -.2em 0 0 currentcolor;
     }
   }
+
+  .navbar-logo .loader {
+    width: 8px; 
+    height: 8px; 
+  }
+  
      
 
 /******************************* RESPONSIVE ********************************/
