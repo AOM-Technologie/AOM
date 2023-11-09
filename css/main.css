@@ -1023,6 +1023,12 @@ button {
         font-size: 36px;
     }
 }
+@media only screen and (max-width: 769px) 
+{
+    .logo-navBar{
+        width: 80px;
+    }
+}
 
 
 /****************************************Preloader Css***********************/
@@ -1360,3 +1366,4 @@ button {
     height: 100%;
     object-fit: contain;
   }
+  
