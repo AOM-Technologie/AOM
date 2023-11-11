@@ -1,14 +1,12 @@
-const minHeight = window.innerHeight;
 
 window.onload = function () {
-
 
     VANTA.BIRDS({
         el: "#oiseaux",
         mouseControls: true,
         touchControls: true,
         gyroControls: false,
-        minHeight: minHeight,
+        minHeight: innerHeight,
         minWidth: 200.00,
         scale: 1.00,
         scaleMobile: 1.00,
