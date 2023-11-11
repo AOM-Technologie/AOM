@@ -1,18 +1,18 @@
+window.onload = function () {
+    const minHeight = window.innerHeight;
 
-// Il prend la hauteur de l'écran
-const minHeight = window.innerHeight;
-
-VANTA.BIRDS({
-    el: "#oiseaux",
-    mouseControls: true,
-    touchControls: true,
-    gyroControls: false,
-    minHeight: minHeight,
-    minWidth: 200.00,
-    scale: 1.00,
-    scaleMobile: 1.00,
-    backgroundColor: 0xffffff,
-    color1: 0x0,
-    color2: 0x49137,
-    alignment: 23.00
-})
+    VANTA.BIRDS({
+        el: "#oiseaux",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: minHeight,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        backgroundColor: 0xffffff,
+        color1: 0x0,
+        color2: 0x49137,
+        alignment: 23.00
+    });
+};
