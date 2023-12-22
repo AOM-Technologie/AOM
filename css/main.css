@@ -866,8 +866,8 @@ button {
     transform: rotateZ(45deg);
     perspective: 1000px;
     border-radius: 50%;
-    width: 48px;
-    height: 48px;
+    width: 45px;
+    height: 45px;
     color: rgb(169, 190, 81);
     position: absolute;
     top: 3%;
@@ -970,8 +970,6 @@ button {
         min-height: 100vh;
     }
 }
-
-
 @media (max-width: 768px)
 {
     .jumbotron {
@@ -1022,7 +1020,7 @@ button {
         margin-left: 15px;
         font-size: 36px;
     }
-}
+   
 @media only screen and (max-width: 769px) 
 {
     .logo-navBar{
@@ -1366,4 +1364,4 @@ button {
     height: 100%;
     object-fit: contain;
   }
-  
+}
