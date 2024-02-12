@@ -367,6 +367,9 @@ header{
     background-size: cover;
     background-position: 15% 100%;
 }
+.titre-temoignage {
+    color: #fff;
+}
 .margin-bottom--30{
     margin-bottom: 30px;
 }
@@ -494,10 +497,9 @@ header{
 }
 .collaborateur img{
     position: absolute; 
-    z-index: -1;
-    width: 100vh; 
-    left: 50%;
-    transform: translateX(-50%);
+    width: 100%;
+    
+    display: block;  
 }
 
 .client-section p{
@@ -1000,7 +1002,7 @@ button {
         font-size: 12px;
     }
     .jumbotron-section h2{
-        font-size: 21px;
+        font-size: 210px;
         font-weight: 600;
     }
     .jumbotron p{
