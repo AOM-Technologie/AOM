@@ -986,7 +986,7 @@ button {
         display: none;
     }
 }
-@media (max-width: 414px)
+@media (max-width: 370px)
 {
     .subscribe-card{
         margin-left: -10px;
@@ -1001,7 +1001,7 @@ button {
     .media-text p, p{
         font-size: 12px;
     }
-    .jumbotron-section h2{
+    .jumbotron-section .slogan h2{
         font-size: 210px;
         font-weight: 600;
     }
