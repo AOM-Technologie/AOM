@@ -72,4 +72,11 @@ $(document).ready(function () {
 jQuery(window).on('load', function () {
 	jQuery(".cube-wrapper").delay(100).fadeOut();
 	jQuery(".preloader-body").delay(100).fadeOut();
-})
+});
+
+// Récupérer l'élément span contenant l'année actuelle
+var currentYearElement = document.getElementById('currentYear');
+// Récupérer l'année actuelle
+var currentYear = new Date().getFullYear();
+// Mettez à jour le contenu de l'élément span avec l'année actuelle
+currentYearElement.textContent = currentYear;
