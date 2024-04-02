@@ -111,7 +111,7 @@ header{
 
 .jumbotron-section h2{
     font-family: 'weblysleek_uisemibold';
-    font-size: 65px;
+    font-size: 55px;
     background: -webkit-linear-gradient(89.97deg, #007ee5 1.84%, #80c3fa 102.67%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -957,7 +957,7 @@ button {
   }
 
 /******************************* RESPONSIVE ********************************/
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 730px) {
     .md-display-table{
         display: table;
     }
@@ -967,8 +967,9 @@ button {
     .md-vertical-middle{
         vertical-align: middle;
     }
-    .jumbotron-section{
+    .jumbotron-section h2{
         min-height: 100vh;
+        font-size: 50px;
     }
 }
 @media (max-width: 768px)
