@@ -968,8 +968,10 @@ button {
         vertical-align: middle;
     }
     .jumbotron-section h2{
-        min-height: 100vh;
-        font-size: 50px;
+        min-height: 50vh;
+        font-size: 15rem;
+        margin-top: 20vh;
+
     }
 }
 @media (max-width: 768px)
