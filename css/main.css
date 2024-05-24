@@ -96,10 +96,15 @@ header{
 }
 
 .jumbotron {
-    padding: 22rem 1rem;
+    padding: 2rem 1rem;
     margin-bottom: 2rem;
     background-color: #eceeef;
     border-radius: .3rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 25rem;
 }
 
 .arriere-plan img{
@@ -111,11 +116,12 @@ header{
 
 .jumbotron-section h2{
     font-family: 'weblysleek_uisemibold';
-    font-size: 55px;
+    font-size: 12rem;
     background: -webkit-linear-gradient(89.97deg, #007ee5 1.84%, #80c3fa 102.67%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     line-height: 1.222;
+    padding-bottom: 2rem;
 }
 .jumbotron p{
     margin-top: 30px;
