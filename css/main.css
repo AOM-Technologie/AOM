@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Archivo+Narrow);
+@import url(https://fonts.googleapis.com/css?family=Archivo+Narrow&display=swap);
 
 body{
     font-size: 16px;
@@ -307,6 +307,7 @@ header{
     color: #007ee5;
     line-height: 1.19;
 }
+/******************************CLIENT **************************************/
 /***************************** COMMON CSS  *********************************/
 
 .no--padding{
@@ -664,17 +665,19 @@ background: linear-gradient(130deg, rgba(250,6,219,1) 0%, rgba(166,237,227) 30%,
     padding-right: 5px;
     line-height: 2;
     margin-bottom: 15px;
+    font-weight: 100;
 }
-.contact:after{
+/*.contact:after{
     content: '';
     position: absolute;
-    bottom: 165px; /* Ajuster la position verticale du trait */
+    bottom: 165px; /* Ajuster la position verticale du trait 
     left: 20%;
     transform: translateX(-70%);
     height: 1px;
     width: 20%;
     background-color: #AE67FA;
 }
+*/
 .contact-media-left{
     min-width: 100px;
 }
