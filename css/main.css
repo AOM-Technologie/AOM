@@ -510,6 +510,13 @@ header{
     display: block;
 }
 
+.zeborne{
+    width: 200px;
+    height: auto;
+    padding-top: 35px;
+    padding-left: 50px;
+}
+
 .client-section p{
     color: #34a4ff;
     font-weight:900;
