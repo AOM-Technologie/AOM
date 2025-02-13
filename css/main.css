@@ -1013,7 +1013,7 @@ button {
 @media (max-width: 768px)
 {
     .jumbotron {
-        padding: 4rem 2rem;
+        
         margin-bottom: 0px;
         border-radius: 0px;
     }
