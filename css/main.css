@@ -663,17 +663,14 @@ background: linear-gradient(130deg, rgba(250,6,219,1) 0%, rgba(166,237,227) 30%,
 }
 .contact{
     font-family: 'weblysleek_uisemilight';
-    background: -webkit-linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /* background: -webkit-linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%); */
+    color: #007de4;
     line-height: 1.222;
     font-size: 21px;
     text-transform: uppercase;
-    padding-left: 5px;
-    padding-right: 5px;
     line-height: 2;
     margin-bottom: 15px;
-    font-weight: 100;
+    font-weight: 900;
 }
 /*.contact:after{
     content: '';
@@ -858,8 +855,8 @@ button {
     height: auto;
     width: auto;
     text-align: justify;
-    background: linear-gradient(30deg,rgb(32, 252, 252),rgb(101, 101, 255)
-      ,rgb(254, 183, 196),rgb(224, 17, 224));
+    background: linear-gradient(30deg,rgb(163, 191, 58),rgb(174, 183, 138)
+      ,rgb(70, 150, 214),rgb(0, 126, 229));
     color: #ffffff;
     border: none;
     padding: 10px 24px;
@@ -874,8 +871,8 @@ button {
   }
 
   button:hover {
-    background: linear-gradient(30deg,rgb(224, 17, 224), pink, rgb(60, 60, 255), rgb(32, 252, 252));
-    box-shadow: 2px 4px 6px #a8097e;
+    background: linear-gradient(30deg,rgb(0, 126, 229), rgb(176, 187, 136), rgb(163, 191, 58));
+    box-shadow: 2px 4px 6px #4109a8;
   }
 
   /* Loader rotation des anneaux autour du logo */
@@ -1105,7 +1102,7 @@ button {
 }
 .cube-folding span::before {
   content: '';
-  background-color: #007ee5;
+  background-color: rgb(0, 126, 229);
   position: absolute;
   left: 0;
   top: 0;
@@ -1406,3 +1403,4 @@ button {
     height: 100%;
     object-fit: contain;
   }
+
