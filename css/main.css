@@ -374,6 +374,8 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 15% 100%;
+    background: linear-gradient(30deg,rgb(163, 191, 58),rgb(174, 183, 138)
+      ,rgb(70, 150, 214),rgb(0, 126, 229));
 }
 .titre-temoignage {
     color: #fff;
