@@ -432,7 +432,9 @@ header{
     line-height: 1.429;
 }
 .btn-icon-container{
-    display: table;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -459,12 +461,12 @@ header{
 .line-height-btn-lg{
     line-height: 100px;
 }
-.btn-icon-container i{
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
+.btn-icon-container i, .btn-icon-container svg{
+    display: block;
     color: #007ee5;
-    font-size: 18px;
+    fill: currentColor;
+    width: 18px;
+    height: 18px;
 }
 .nav>li>.btn{
     padding: 0;
